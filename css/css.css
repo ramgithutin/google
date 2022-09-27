@@ -18,7 +18,7 @@ body{
 	margin-top: 10px;
 	font-size:13px;
 	font-weight:400;
-        color:rgba(0,0,0,0.87)
+	color:rgba(0,0,0,0.87)
 }
 
 .material img{
@@ -43,6 +43,7 @@ button{
 
 .middle{
 	text-align:center;
+	margin-top: 50px;
 }
 .searchBar{
 	display: flex;
@@ -52,8 +53,8 @@ button{
 	display: flex;
 	flex: 0.4;
 	align-items: center;
-	background-color: whitesmoke;
 	padding: 3px;
+	border: solid 1px #e0e1e4;
 	border-radius: 20px;
 }
 .headerMiddle input {
@@ -88,4 +89,50 @@ a{
 .footer{
 	font-size:13px;
 	text-align:center;
+}
+.india{
+	background-color: whitesmoke;
+	padding: 14px;
+	margin-top: 174px;
+	font-size: 15px;
+	color: rgb(112,117,122);
+}
+.bottom{
+	display:flex;
+	background-color: whitesmoke;
+	padding: 14px;
+	background-color: whitesmoke;
+	font-size: 15px;
+	color: rgb(112,117,122);
+	border-top: solid 1px #e0e1e4;
+
+}
+.about span{
+	margin-left:10px;
+	cursor:pointer;
+}
+.privacy{
+	flex: 1;
+	text-align: end;
+}
+.privacy span{
+	margin-right:10px;
+	cursor:pointer;
+}
+/*hover*/
+.header .material:hover{
+	border-radius: 20px;
+    	background-color: #dad9d9;
+}
+.sign :hover{
+	background-color: #1566d1;
+}
+.middleButton button:hover{
+	border: 1px solid #dadce0;
+}
+a:hover{
+	text-decoration: underline;
+}
+.bottom span:hover{
+	text-decoration: underline;
 }
