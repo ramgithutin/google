@@ -1,0 +1,91 @@
+*{
+	margin:0px;
+	padding:0px;
+}  
+
+body{
+	font-family: arial, sans-serif;
+}
+
+.header{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.header span{
+	padding: 9px;
+	margin-top: 10px;
+	font-size:13px;
+	font-weight:400;
+        color:rgba(0,0,0,0.87)
+}
+
+.material img{
+	width:20px;
+	margin-right: 20px;
+}
+button{
+	font-family:"Google Sans", Roboto, Helvetica, Arial, sans-serif;
+	font-size:14px;
+	font-weight:500;
+	color:rgb(255,255,255);
+	cursor: pointer;
+	align-items: center;
+	border-color: #1a73e8;
+	border-radius: 3px;
+	background-color: #1a73e8;
+	margin-right: 15px;
+	margin-top: 7px;
+    	width: 86px;
+	padding: 8px;
+}
+
+.middle{
+	text-align:center;
+}
+.searchBar{
+	display: flex;
+	justify-content: center
+}
+.headerMiddle {
+	display: flex;
+	flex: 0.4;
+	align-items: center;
+	background-color: whitesmoke;
+	padding: 3px;
+	border-radius: 20px;
+}
+.headerMiddle input {
+	border: none;
+	width: 100%;
+	padding: 10px;
+	outline: none;
+	font-size: medium;
+	background-color: transparent;
+}
+.headerMiddle img{
+	margin-left:14px;
+}
+.middleButton{
+	display: flex;
+	justify-content: center;
+}
+.middleButton button{
+background-color: whitesmoke;
+    color: rgb(32, 33, 36);
+    border: none;
+    font-weight: 400;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    width: 150px;
+    font-size: 14px;
+}
+a{
+	margin-left:20px;
+	text-decoration: none;
+}
+.footer{
+	font-size:13px;
+	text-align:center;
+}
