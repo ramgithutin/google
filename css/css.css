@@ -44,7 +44,7 @@ button {
 
 .middle {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 12px;
 }
 
 .searchBar {
@@ -54,9 +54,10 @@ button {
 
 .headerMiddle {
 	display: flex;
-	flex: 0.4;
+	width: 42%;
 	align-items: center;
 	padding: 3px;
+	margin-top: 23px;
 	border: solid 1px #e0e1e4;
 	border-radius: 20px;
 }
@@ -91,7 +92,7 @@ button {
 }
 
 a {
-	margin-left: 20px;
+	margin-left: 11px;
 	text-decoration: none;
 }
 
